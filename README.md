@@ -1,6 +1,6 @@
 # sideMenuBug
 
-Bug when rotating device: yellow (body color) area appeare on the screen.
+Bug when rotating a device: yellow (body color) area appeare on the screen.
 
 ![bug](https://dl.dropboxusercontent.com/u/8126643/ezgif.com-gif-maker.gif)
 
