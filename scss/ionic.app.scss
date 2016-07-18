@@ -1,0 +1,31 @@
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+$menu-bg: #387ef5;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.item {
+    background-color: $menu-bg;
+    color: #fff;
+
+    .item-content {
+      background-color: $menu-bg;
+      color: #fff;
+    }
+
+    border: none;
+
+    &.activated {
+        background-color: $item-default-active-bg;
+    }
+}
+
+.menu-content, .pane, .view, ion-content, .scroll {
+    background-color: $menu-bg;
+}
+
+body {
+  background-color: yellow;
+}
